@@ -9,10 +9,6 @@ app = Flask(__name__)
 def show_homepage():
     return render_template("homepage.html")
 
-@app.route('/about')
-def show_about():
-    return render_template("about.html")
-
 @app.route('/services')
 def show_services():
     return render_template("services.html")

@@ -1,0 +1,96 @@
+body{
+    background-color: rgba(14, 14, 204, 0.641);
+}
+.header {
+    position: absolute;
+    z-index: 1;
+
+  }
+.fillscreen{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+.slogantext{
+    color:rgb(251, 251, 252);
+    text-align: center;
+    text-shadow: -1px -1px 1px #0d0a93;
+    font-family: 'Roboto Slab', serif;
+}
+.navtext{
+    color:rgb(251, 251, 252);
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 3vw;
+}
+h2{
+    font-size:2.5vw;
+}
+h3{
+    font-size:2.1vw;
+}
+h4{
+    font-size:1.9vw;
+}
+h5{
+    font-size:1.4vw;
+}
+p{
+    font-size:1.15vw;
+}
+h11{
+    font-size: 20px;
+}
+
+a:active{
+    color: black;
+    text-decoration: none;
+   }
+a:visited{
+     color: black;
+     text-decoration: none;
+    }
+a:hover{
+     color: white;
+   }
+a.navlink:hover{
+    color:rgb(135, 135, 227)
+}
+.abouttext{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.aboutcontainer{
+    background-color: white;
+    height:40vw;
+    width: auto;
+    text-align: center;
+}
+.centertext{
+    text-align: center;
+}
+.card{
+    border-width: 0px;
+    /* -webkit-mask-image: linear-gradient(black, transparent); */
+    background: linear-gradient(
+    to bottom,
+    #020130f6,
+    rgba(14, 0, 0, 0)
+  )
+}
+i.material-symbols-outlined{
+    font-size: 36px;
+}
+
+.titletext{
+    color:rgb(251, 251, 252);
+    text-align: center;
+    text-shadow: -2px -2px 2px #020130f6;
+    font-family: 'Roboto Slab', serif;
+}
