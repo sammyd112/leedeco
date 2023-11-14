@@ -18,7 +18,7 @@ body{
 .slogantext{
     color:rgb(251, 251, 252);
     text-align: center;
-    text-shadow: -1px -1px 1px #0d0a93;
+    text-shadow: -2px -2px 2px #0d0a93;
     font-family: 'Roboto Slab', serif;
 }
 .navtext{
@@ -77,11 +77,10 @@ a.navlink:hover{
 }
 .card{
     border-width: 0px;
-    /* -webkit-mask-image: linear-gradient(black, transparent); */
     background: linear-gradient(
     to bottom,
     #020130f6,
-    rgba(14, 0, 0, 0)
+    rgb(100, 100, 215)
   )
 }
 i.material-symbols-outlined{
@@ -93,4 +92,70 @@ i.material-symbols-outlined{
     text-align: center;
     text-shadow: -2px -2px 2px #020130f6;
     font-family: 'Roboto Slab', serif;
+}
+div.servicescontainer{
+    background-image: url("https://res.cloudinary.com/dbdyyg3uy/image/upload/v1699398293/Untitled_design_1_mnnohk.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.row {
+    display: flex;
+    margin-left: 9%;
+
+}
+.column {
+    flex: 50%;
+  }
+
+div.contactcontainer{
+    background-image: url("https://res.cloudinary.com/dbdyyg3uy/image/upload/v1699404571/Lee%20Deco/modern-abstract-art-painting-blue-and-white-expression-santa-rizevska_wumelw.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contacticons{
+    border-radius: 50%;
+    width: 15%;
+    height: auto;
+}
+.row3 {
+    display: flex;
+}
+.column3 {
+    flex: 33.333%;
+  }
+.formsize{
+    width:50%;
+    display:inline-block;
+}
+.whiteline{
+    background-color: white;
+    border-radius: 50%;
+    height: .5vw;
+    width: 80%;
+    display:inline-block
+}
+.modal-content{
+    background-color: rgb(100, 100, 215);
+    background: linear-gradient(
+    to bottom,
+    #020130f6,
+    rgb(100, 100, 215)
+    );
+}
+.modal-title{
+    flex: 50%;
+
+}
+.projectscontainer{
+    width: 90%;
+}
+.carousel { 
+    width:640px; 
+    height:360px; 
 }

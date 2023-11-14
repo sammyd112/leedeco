@@ -1,4 +1,89 @@
 <!doctype html>
 {% extends 'base.html' %}
 {% block body %}
+<div class="contactcontainer">
+    <br>
+    <br>
+    <br>
+    <h1 class="slogantext"> Contact Us </h1>
+    <br>
+    <br>
+    <br>
+</div>
+<div class="card" style="width: 100%;">
+    <div class="card-body centertext">
+    <br>
+    <br>
+    <br>
+    <br>
+      <h2 class="card-title slogantext">Need an Estimate?</h2>
+      <h6 class="card-subtitle abouttext"> We can make that Happen!</h6>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="row3">
+        <div class="column3">
+            <img src="https://res.cloudinary.com/dbdyyg3uy/image/upload/v1699405538/Lee%20Deco/588062b45a7b7e3262259386ece3bad6_lnhrq0.png" class="contacticons">
+            <br>
+            <br>
+            <br>
+            <h3 class="slogantext">Poconos, PA</h3>
+        </div>
+        <div class="column3">
+            <img src="https://res.cloudinary.com/dbdyyg3uy/image/upload/v1699405421/Lee%20Deco/93ed6be401f666e0a987101fa367a492_azv559.jpg" class="contacticons">
+            <br>
+            <br>
+            <br>
+            <h3 class="slogantext">(570)-595-7393</h3>
+        </div>
+        <div class="column3">
+            <img src="https://res.cloudinary.com/dbdyyg3uy/image/upload/v1699405446/Lee%20Deco/294b12dd0e2b8a7a915a7051273891ac_ozdxpc.png" class="contacticons">
+            <br>
+            <br>
+            <br>
+            <h3 class="slogantext">mpapile@leedecorating.us</h3>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="whiteline"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 class="slogantext">Request an Estimate</h2>
+    <br>
+    <br>
+    <form action="/contactus" method="POST">
+    <div class="mb-3 abouttext formsize">
+        <label for="name" class="form-label">Name</label>
+        <input type="name" class="form-control" id="name" name="name" placeholder="John Doe">
+      </div>
+    <div class="mb-3 abouttext formsize">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+      </div>
+    <div class="mb-3 abouttext formsize">
+        <label for="phone" class="form-label">Phone Number</label>
+        <input class="form-control" id="phone" name="phone" placeholder="555-555-5555" maxLength="10">
+    </div>
+    <div class="mb-3 abouttext formsize">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+    </div>
+    <div class="mb-3 abouttext formsize">
+        <br>
+    <button type="submit" class="btn btn-primary" location.reload() >Send Message</button>
+    </div>
+    </form>
+  </div>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+
+
 {% endblock %}

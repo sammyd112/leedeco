@@ -1,4 +1,29 @@
 <!doctype html>
 {% extends 'base.html' %}
 {% block body %}
+<div class="projectscontainer">
+    <div class="row">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://res.cloudinary.com/dbdyyg3uy/image/upload/v1698867282/Lee%20Deco/St-Lukes-Anderson-2-2048x1386_ssxrxl.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://res.cloudinary.com/dbdyyg3uy/image/upload/v1698888263/Lee%20Deco/ventilation-pipes-silver-insulation-material-hanging-from-ceiling-inside-new-building-modern-industrial-factory_116317-14368_zv3fdg.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://res.cloudinary.com/dbdyyg3uy/image/upload/v1698888645/Lee%20Deco/waterpark_srs5ac.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+</div>
 {% endblock %}
