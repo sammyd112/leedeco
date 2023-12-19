@@ -22,7 +22,7 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 .navtext{
-    color:rgb(251, 251, 252);
+    color: blue;
     font-family: 'Roboto Slab', serif;
 }
 h1{
@@ -48,15 +48,15 @@ h11{
 }
 
 a:active{
-    color: black;
+    color: white;
     text-decoration: none;
    }
 a:visited{
-     color: black;
+     color: white;
      text-decoration: none;
     }
 a:hover{
-     color: white;
+     color: black;
    }
 a.navlink:hover{
     color:rgb(135, 135, 227)
@@ -103,7 +103,7 @@ div.servicescontainer{
 }
 .row {
     display: flex;
-    margin-left: 9%;
+    margin-left: 3%;
 
 }
 .column {
@@ -153,9 +153,16 @@ div.contactcontainer{
 
 }
 .projectscontainer{
-    width: 90%;
+    width: 70%;
+    margin: auto;
+    border-color: rgba(21, 5, 74, 0.807);
+    border-width: 20vw;
 }
-.carousel { 
-    width:640px; 
-    height:360px; 
+.projectsback{
+    background-image: url("https://res.cloudinary.com/dbdyyg3uy/image/upload/v1702976845/Lee%20Deco/deep-sea-dragon-aneta-soukalova_ohfzuh.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
