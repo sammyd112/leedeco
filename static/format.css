@@ -103,6 +103,7 @@ div.servicescontainer{
 }
 .row {
     display: flex;
+    margin-left: 1.5%;
 
 }
 .column {
