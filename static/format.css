@@ -81,7 +81,7 @@ a.navlink:hover{
     background: linear-gradient(
     to bottom,
     #020130f6,
-    rgb(100, 100, 215)
+    rgba(4, 113, 238, 0.942)
   )
 }
 i.material-symbols-outlined{
@@ -142,11 +142,11 @@ div.contactcontainer{
     display:inline-block
 }
 .modal-content{
-    background-color: rgb(100, 100, 215);
+    background-color: rgba(4, 113, 238, 0.942);
     background: linear-gradient(
     to bottom,
     #020130f6,
-    rgb(100, 100, 215)
+    rgba(4, 113, 238, 0.942)
     );
 }
 .modal-title{
