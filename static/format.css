@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(14, 14, 204, 0.641);
+    background-color: rgba(4, 113, 238, 0.942);
 }
 .header {
     position: absolute;
@@ -8,6 +8,7 @@ body{
   }
 .fillscreen{
     width: 100%;
+    height:70%;
 }
 .overlay{
     position: absolute;
