@@ -16,6 +16,22 @@ app.jinja_env.undefined = StrictUndefined
 def show_homepage():
     return render_template("homepage.html")
 
+@app.route("/commercial-exterior-painting-service")
+def commercial_exterior():
+    return render_template("commercial-exterior-painting-service.html")
+
+@app.route("/commercial-interior-painters")
+def commercial_interior():
+    return render_template("commercial-interior-painters.html")
+
+@app.route("/commercial-painters")
+def commercial_painters():
+    return render_template("commercial-painters.html")
+
+@app.route("/commercial-residential-painters")
+def commercial_residential():
+    return render_template("commercial-residential-painters.html")
+
 @app.route('/services')
 def show_services():
     return render_template("services.html")

@@ -167,3 +167,11 @@ div.contactcontainer{
     background-size: cover;
     background-position: center;
 }
+.usps {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 35px 0;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 17px;
+}
